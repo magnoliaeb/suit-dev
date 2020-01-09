@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+.bg-dark {
+  background-color: #1C1C1C !important;
+}
+
+body {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FFB700;
+  font-family: "Lora", serif;
+}
+
+.nav-bar {
+  background-color: #1C1C1C !important;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.nav-bar a {
+  color: #F4F4F4 !important;
+}
+
+.bg-feature {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/bg-8.jpg");
+}
+
+.inicio {
+  height: 100%;
+  width: 100%;
+  background-color: #1C1C1C;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/fondo-principal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.capa-over {
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+}
+
+.capa-over span::first-letter {
+  color: red !important;
+  font-size: 4rem !important;
+}
+
+.capa-over p {
+  color: #DDDDDD;
+}
+
+.capa-over .img-hero {
+  position: absolute;
+  background-image: url("../img/bg-1.png");
+  background-size: 90%;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  right: 15%;
+  top: 30px;
+  overflow: hidden;
+}
+
+.capa-over h1 {
+  font-weight: bold;
+  color: #DDDDDD;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.capa-over h1 .uppercase {
+  font-size: 4rem;
+}
+
+.capa-over .bg-principal img {
+  border: 5px solid #FFB700;
+}
+
+.types img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.types h3 {
+  color: #545454;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+.types p {
+  color: #545454;
+}
+
+.work {
+  height: auto;
+  width: 100%;
+}
+
+.work h2 {
+  color: #DDDDDD;
+}
+
+.work .nav-tabs {
+  border: none !important;
+}
+
+.work .nav-link {
+  font-size: 4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #545454;
+  background-color: transparent !important;
+  border: none;
+}
+
+.work img {
+  width: 150px;
+  height: 150px;
+}
+
+.nav-link.active {
+  color: #FFB700 !important;
+}
+
+.feature {
+  height: 80%;
+  width: auto;
+  position: relative;
+}
+
+.feature .feature-item-rigth {
+  background-color: #1C1C1C;
+}
+
+.feature .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.feature .content img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.carousel-control-prev {
+  left: -50px;
+}
+
+.carousel-control-prev .carousel-control-prev-icon {
+  padding: 20px;
+}
+
+.carousel-control-next {
+  right: -50px;
+}
+
+.carousel-control-next .carousel-control-next-icon {
+  padding: 20px;
+}
+
+.register {
+  background-image: url("../img/contact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.register h2 {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer a {
+  color: #DDDDDD;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer a:hover {
+  color: #FFB700;
+}
+
+.bg-light {
+  background-color: #545454 !important;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .carousel-control-prev {
+    left: -60px !important;
+  }
+  .carousel-control-prev .carousel-control-prev-icon {
+    padding: 15px;
+  }
+  .carousel-control-next {
+    right: -60px !important;
+  }
+  .carousel-control-next .carousel-control-next-icon {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .carousel-control-prev {
+    left: 30%;
+    bottom: -300px;
+  }
+  .carousel-control-prev .carousel-control-prev-icon {
+    padding: 15px;
+  }
+  .carousel-control-next {
+    right: 30%;
+    bottom: -300px;
+  }
+  .carousel-control-next .carousel-control-next-icon {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .carousel-control-prev {
+    left: 30%;
+    bottom: -360px;
+  }
+  .carousel-control-prev .carousel-control-prev-icon {
+    padding: 15px;
+  }
+  .carousel-control-next {
+    right: 30%;
+    bottom: -360px;
+  }
+  .carousel-control-next .carousel-control-next-icon {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h2 {
+    font-size: 2rem !important;
+    background-repeat: no-repeat;
+  }
+  .carousel-control-prev {
+    left: 30%;
+    bottom: -360px;
+  }
+  .carousel-control-prev .carousel-control-prev-icon {
+    padding: 15px;
+  }
+  .carousel-control-next {
+    right: 30%;
+    bottom: -360px;
+  }
+  .carousel-control-next .carousel-control-next-icon {
+    padding: 15px;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
+
+body {
+  border: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler i {
+  color: #FFB700 !important;
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: #545454;
+}
+
+a:focus, button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.freebirdFormviewerViewFooterEmbeddedLogoImage {
+  display: none !important;
+}
